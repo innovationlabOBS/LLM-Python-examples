@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_heat_transferred",
+    "description": "Calculates the amount of heat transferred in a system given the mass, specific heat capacity, and temperature change.",
+    "code": "def find_heat_transferred(mass, specific_heat, temp_change):\n    return mass * specific_heat * temp_change",
+    "input_params": ["mass", "specific_heat", "temp_change"],
+    "output_param": "heat_transferred"
+}

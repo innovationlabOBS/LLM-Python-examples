@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_moment_of_inertia",
+    "description": "Calculates the moment of inertia for a solid cylinder about its central axis.",
+    "code": "def compute_moment_of_inertia(mass, radius):\n    return (1/2) * mass * radius ** 2",
+    "input_params": ["mass", "radius"],
+    "output_param": "moment_of_inertia"
+}

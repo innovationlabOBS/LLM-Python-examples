@@ -1,0 +1,90 @@
+===============User Input================:
+
+ what is the square root of 37456
+
+===============GPT_CALL_CHECK_FN_EXISTS Prompt================:
+
+ Given the user query, see if the following list of descriptions of python functions contains an example that can answer the user's query. Give your output as a json in the format provided.
+
+# User query
+what is the square root of 37456
+
+# Descriptions of python functions
+1: FUNCTION NAME: calculate_coulomb_force   FUNCTION DESCRIPTION: Calculates the Coulomb force between two charges separated by a certain distance.
+
+2: FUNCTION NAME: calculate_escape_velocity   FUNCTION DESCRIPTION: Calculates the escape velocity of a planet given its mass and radius.
+
+3: FUNCTION NAME: calculate_gravity   FUNCTION DESCRIPTION: Calculates the acceleration due to gravity of a planet based on its mass and radius.
+
+4: FUNCTION NAME: divide_numbers   FUNCTION DESCRIPTION: This function divides one number by another.
+
+5: FUNCTION NAME: find_nth_prime   FUNCTION DESCRIPTION: This function calculates the nth prime number.
+
+6: FUNCTION NAME: multiply_numbers   FUNCTION DESCRIPTION: This function multiplies two numbers together.
+
+
+
+# Json format example
+{
+    "function_exists": <output YES or NO if the function is in the list>,
+    "function_name": <name of the function, null if it doesn't exist>
+}
+
+# Json output (with no extra characters, as this wil break the parsing of this output)
+
+===============GPT_CALL_CHECK_FN_EXISTS Response================:
+
+ {
+    "function_exists": "NO",
+    "function_name": null
+}
+
+===============GPT_CALL_CONVERT_TO_PYTHON Prompt================:
+
+ Given the user's query, if applicable, generate a python script to perform the computation they are asking. Make sure to user the json format that is provided for your output.
+
+# User Query
+what is the square root of 37456
+
+# Json format for output
+{
+    "function_description": < a description of what the function does>,
+    "input_param_names": <a list of the names of the input parameters for the function>,
+    "actual_input_values": <a list of the values that the user supplied that will go into the function. In the same order as the input params names. Convert these values to be purely numerical and to work in the units that the function requires>
+    "output_param_name": <name of the output parameter of the function>,
+    "code": <the generic code of the function with no user supplied values injected>,
+    "function_name": <name of the function>
+}
+
+# Json output (with no extra characters, as this wil break the parsing of this output)
+
+===============GPT_CALL_CONVERT_TO_PYTHON Response================:
+
+ {
+    "function_description": "Calculates the square root of a given number.",
+    "input_param_names": ["number"],
+    "actual_input_values": [37456],
+    "output_param_name": "square_root",
+    "code": "import math\ndef calculate_square_root(number):\n    square_root = math.sqrt(number)\n    return square_root",
+    "function_name": "calculate_square_root"
+}
+
+===============GPT_CALL_ANSWER_USER_QUERY Prompt================:
+
+ Given the user's query and the correct answer, convey this answer to them in a concise and friendly manner. Make sure to use the supplied answer, don't try to answer the query yourself.
+
+# User query
+what is the square root of 37456
+
+# Correct answer
+193.5355264544471
+
+# Function Definition used to solve the problem
+{"function_description": "Calculates the square root of a given number.", "input_param_names": ["number"], "actual_input_values": [37456], "output_param_name": "square_root", "code": "import math\ndef calculate_square_root(number):\n    square_root = math.sqrt(number)\n    return square_root", "function_name": "calculate_square_root"}
+
+# Friendly and concise response
+
+===============GPT_CALL_ANSWER_USER_QUERY Response================:
+
+ The square root of 37456 is approximately 193.54. 😊
+

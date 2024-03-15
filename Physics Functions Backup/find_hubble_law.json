@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_hubble_law",
+    "description": "Calculates the velocity of a galaxy moving away from Earth using Hubble's Law. Hubble's Law states that the velocity (v) at which a galaxy moves away from us is directly proportional to its distance (d) from us, with the proportionality constant being the Hubble constant (H0). The formula used is v = H0 * d.",
+    "code": "def find_hubble_law(distance, hubble_constant):\n    velocity = hubble_constant * distance\n    return velocity",
+    "input_params": ["distance", "hubble_constant"],
+    "output_param": "velocity"
+}

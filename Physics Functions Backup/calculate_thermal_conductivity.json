@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_thermal_conductivity",
+    "description": "Calculates the thermal conductivity of a material given its heat transfer rate, thickness, temperature difference, and cross-sectional area.",
+    "code": "def calculate_thermal_conductivity(heat_transfer_rate, thickness, temperature_difference, area):\n    return (heat_transfer_rate * thickness) / (temperature_difference * area)",
+    "input_params": ["heat_transfer_rate", "thickness", "temperature_difference", "area"],
+    "output_param": "thermal_conductivity"
+}

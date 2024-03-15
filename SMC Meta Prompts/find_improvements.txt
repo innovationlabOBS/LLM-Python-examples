@@ -1,0 +1,12 @@
+Given the following code, add some functionality and output what you have come up with. Some ideas for improvements are enabling multi turn conversation, logging, and error handling. Give your output as per the json example below
+
+# JSON Output Example
+{
+    "brief_summary_of_changes": "<a very brief summary of the changes to be made and the rationale behind the changes>",
+    "complete_rewritten_code": "<the fixed python code in it's entirety>"
+}
+
+#PYTHON CODE
+<<PYTHON_CODE>>
+
+# JSON Output (with no extra characters, as this wil break the parsing of this output)

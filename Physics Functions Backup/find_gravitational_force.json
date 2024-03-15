@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_gravitational_force",
+    "description": "Calculates the gravitational force between two masses",
+    "code": "def find_gravitational_force(mass1, mass2, distance):\n    G = 6.674 * (10**-11)\n    force = G * ((mass1 * mass2) / (distance ** 2))\n    return force",
+    "input_params": ["mass1", "mass2", "distance"],
+    "output_param": "force"
+}

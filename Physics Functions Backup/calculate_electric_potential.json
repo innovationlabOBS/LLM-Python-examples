@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_electric_potential",
+    "description": "Calculates the electric potential at a point in space, given the charge and the distance from the charge to the point.",
+    "code": "def calculate_electric_potential(charge, distance):\n    k = 8.9875517873681764 * 10**9  # Coulomb's constant in N m^2/C^2\n    electric_potential = k * charge / distance\n    return electric_potential",
+    "input_params": ["charge", "distance"],
+    "output_param": "electric_potential"
+}

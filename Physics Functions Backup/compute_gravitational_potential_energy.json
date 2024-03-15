@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_gravitational_potential_energy",
+    "description": "This function calculates the gravitational potential energy of an object given its mass, gravitational force, and height above a reference point.",
+    "code": "def compute_gravitational_potential_energy(mass, gravitational_force, height):\n    return mass * gravitational_force * height",
+    "input_params": ["mass", "gravitational_force", "height"],
+    "output_param": "gravitational_potential_energy"
+}

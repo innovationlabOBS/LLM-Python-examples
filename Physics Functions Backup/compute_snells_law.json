@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_snells_law",
+    "description": "Calculates the refraction angle of a light ray passing through two different media, based on Snell's Law.",
+    "code": "def compute_snells_law(incident_angle, refractive_index1, refractive_index2):\n    import math\n    return math.asin((refractive_index1 / refractive_index2) * math.sin(math.radians(incident_angle))) * (180 / math.pi)",
+    "input_params": ["incident_angle", "refractive_index1", "refractive_index2"],
+    "output_param": "refraction_angle"
+}

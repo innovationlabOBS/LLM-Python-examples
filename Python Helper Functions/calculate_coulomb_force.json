@@ -1,0 +1,11 @@
+{
+    "function_description": "Calculates the Coulomb force between two charges separated by a certain distance.",
+    "input_param_names": [
+        "charge1",
+        "charge2",
+        "distance"
+    ],
+    "output_param_name": "force",
+    "code": "def calculate_coulomb_force(charge1, charge2, distance):\n    k = 8.9875517873681764e9 # Coulomb's constant in N m^2/C^2\n    force = k * (charge1 * charge2) / (distance ** 2)\n    return force",
+    "function_name": "calculate_coulomb_force"
+}

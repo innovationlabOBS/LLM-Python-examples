@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_velocity",
+    "description": "Calculates the velocity of an object given its displacement and the time taken.",
+    "code": "def calculate_velocity(displacement, time):\n    velocity = displacement / time\n    return velocity",
+    "input_params": ["displacement", "time"],
+    "output_param": "velocity"
+}

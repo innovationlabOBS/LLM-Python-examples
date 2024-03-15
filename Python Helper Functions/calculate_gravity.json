@@ -1,0 +1,10 @@
+{
+    "function_description": "Calculates the acceleration due to gravity of a planet based on its mass and radius.",
+    "input_param_names": [
+        "mass_kg",
+        "radius_m"
+    ],
+    "output_param_name": "acceleration_due_to_gravity",
+    "code": "def calculate_gravity(mass_kg, radius_m):\n    G = 6.67430e-11  # gravitational constant in m^3 kg^-1 s^-2\n    acceleration_due_to_gravity = G * mass_kg / (radius_m ** 2)\n    return acceleration_due_to_gravity",
+    "function_name": "calculate_gravity"
+}

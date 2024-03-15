@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_illuminance",
+    "description": "Calculates the illuminance in lux given the luminous flux in lumens and the area in square meters over which the flux is spread.",
+    "code": "def compute_illuminance(luminous_flux, area):\n    if area <= 0:\n        raise ValueError('Area must be greater than 0')\n    illuminance = luminous_flux / area\n    return illuminance",
+    "input_params": ["luminous_flux", "area"],
+    "output_param": "illuminance"
+}

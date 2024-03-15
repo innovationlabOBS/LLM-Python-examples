@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_efficiency_of_heat_engine",
+    "description": "Calculates the efficiency of a heat engine based on the input and output thermal energies.",
+    "code": "def compute_efficiency_of_heat_engine(input_energy, output_energy):\n    efficiency = (input_energy - output_energy) / input_energy\n    return efficiency",
+    "input_params": ["input_energy", "output_energy"],
+    "output_param": "efficiency"
+}

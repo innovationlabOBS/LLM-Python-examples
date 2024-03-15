@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_orbital_speed",
+    "description": "Calculates the orbital speed of an object in orbit around a celestial body given the mass of the celestial body and the radius of the orbit.",
+    "code": "def find_orbital_speed(mass_of_celestial_body, radius_of_orbit):\n    G = 6.67430e-11 # Universal gravitational constant in m^3 kg^-1 s^-2\n    return (G * mass_of_celestial_body / radius_of_orbit) ** 0.5",
+    "input_params": ["mass_of_celestial_body", "radius_of_orbit"],
+    "output_param": "orbital_speed"
+}

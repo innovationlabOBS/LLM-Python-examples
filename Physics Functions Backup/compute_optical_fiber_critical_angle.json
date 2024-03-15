@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_optical_fiber_critical_angle",
+    "description": "Calculates the critical angle for total internal reflection in an optical fiber, given the refractive indices of the core and the cladding.",
+    "code": "def compute_optical_fiber_critical_angle(n_core, n_cladding):\n    import math\n    if n_core <= n_cladding:\n        return 'Invalid input: n_core must be greater than n_cladding'\n    critical_angle = math.degrees(math.asin(n_cladding / n_core))\n    return critical_angle",
+    "input_params": ["n_core", "n_cladding"],
+    "output_param": "critical_angle"
+}

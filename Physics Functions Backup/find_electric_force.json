@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_electric_force",
+    "description": "Calculates the electric force between two charges.",
+    "code": "def find_electric_force(charge1, charge2, distance):\n    k = 8.9875517873681764 * 10**9  # Coulomb's constant in N m^2/C^2\n    force = k * abs(charge1 * charge2) / distance**2\n    return force",
+    "input_params": ["charge1", "charge2", "distance"],
+    "output_param": "force"
+}

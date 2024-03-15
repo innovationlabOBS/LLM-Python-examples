@@ -1,0 +1,16 @@
+Given the user's query, if applicable, generate a python script to perform the computation they are asking. Make sure to user the json format that is provided for your output.
+
+# User Query
+<<USER_QUERY>>
+
+# Json format for output
+{
+    "function_description": < a description of what the function does>,
+    "input_param_names": <a list of the names of the input parameters for the function>,
+    "actual_input_values": <a list of the values that the user supplied that will go into the function. In the same order as the input params names. Convert these values to be purely numerical and to work in the units that the function requires>
+    "output_param_name": <name of the output parameter of the function>,
+    "code": <the generic code of the function with no user supplied values injected>,
+    "function_name": <name of the function>
+}
+
+# Json output (with no extra characters, as this wil break the parsing of this output)

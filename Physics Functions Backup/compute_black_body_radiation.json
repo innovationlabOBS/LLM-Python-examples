@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_black_body_radiation",
+    "description": "Calculates the spectral radiance of a black body at a given temperature and wavelength.",
+    "code": "def compute_black_body_radiation(temperature, wavelength):\n    import scipy.constants as const\n    factor1 = 2.0 * const.h * const.c ** 2\n    factor2 = (const.h * const.c) / (wavelength * const.k * temperature)\n    spectral_radiance = factor1 / ((wavelength ** 5) * (np.exp(factor2) - 1))\n    return spectral_radiance",
+    "input_params": ["temperature", "wavelength"],
+    "output_param": "spectral_radiance"
+}

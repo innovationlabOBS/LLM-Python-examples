@@ -1,0 +1,9 @@
+{
+    "function_description": "Calculates the square root of a given number.",
+    "input_param_names": [
+        "number"
+    ],
+    "output_param_name": "square_root",
+    "code": "import math\ndef calculate_square_root(number):\n    square_root = math.sqrt(number)\n    return square_root",
+    "function_name": "calculate_square_root"
+}

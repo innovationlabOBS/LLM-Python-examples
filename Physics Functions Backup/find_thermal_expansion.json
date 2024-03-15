@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_thermal_expansion",
+    "description": "Calculates the linear thermal expansion of an object given its initial length, the coefficient of linear expansion, and the temperature change.",
+    "code": "def find_thermal_expansion(initial_length, coefficient_of_expansion, temperature_change):\n    expansion = initial_length * coefficient_of_expansion * temperature_change\n    return expansion",
+    "input_params": ["initial_length", "coefficient_of_expansion", "temperature_change"],
+    "output_param": "expansion"
+}

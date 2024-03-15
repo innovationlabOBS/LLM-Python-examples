@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_angular_acceleration",
+    "description": "Calculates the angular acceleration given the change in angular velocity and the time taken for that change.",
+    "code": "def calculate_angular_acceleration(delta_angular_velocity, time_period):\n    return delta_angular_velocity / time_period",
+    "input_params": ["delta_angular_velocity", "time_period"],
+    "output_param": "angular_acceleration"
+}

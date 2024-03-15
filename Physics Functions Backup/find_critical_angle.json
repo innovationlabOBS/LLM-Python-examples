@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_critical_angle",
+    "description": "Calculates the critical angle for total internal reflection given the indices of refraction of two media.",
+    "code": "def find_critical_angle(n1, n2):\n    import math\n    if n1 > n2:\n        critical_angle = math.asin(n2 / n1)\n        return math.degrees(critical_angle)\n    else:\n        return 'Total internal reflection does not occur.'",
+    "input_params": ["n1", "n2"],
+    "output_param": "critical_angle"
+}

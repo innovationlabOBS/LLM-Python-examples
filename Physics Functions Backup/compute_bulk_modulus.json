@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_bulk_modulus",
+    "description": "This function calculates the bulk modulus of a material, which is a measure of the material's resistance to compressibility under uniform pressure. It is defined as the pressure increase needed to cause a given relative decrease in volume.",
+    "code": "def compute_bulk_modulus(pressure, initial_volume, final_volume):\n    volume_change = initial_volume - final_volume\n    relative_volume_change = volume_change / initial_volume\n    bulk_modulus = pressure / relative_volume_change\n    return bulk_modulus",
+    "input_params": ["pressure", "initial_volume", "final_volume"],
+    "output_param": "bulk_modulus"
+}

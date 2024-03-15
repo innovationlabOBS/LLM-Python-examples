@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_power_in_circuits",
+    "description": "Calculates the power in an electrical circuit given voltage and current.",
+    "code": "def find_power_in_circuits(voltage, current):\n    power = voltage * current\n    return power",
+    "input_params": ["voltage", "current"],
+    "output_param": "power"
+}

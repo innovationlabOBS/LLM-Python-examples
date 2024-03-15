@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_luminous_intensity",
+    "description": "Calculates the luminous intensity in candela (cd) of a light source based on its luminous flux (in lumens) and the solid angle (in steradians) it is emitted over.",
+    "code": "def find_luminous_intensity(luminous_flux, solid_angle):\n    if solid_angle <= 0:\n        raise ValueError('Solid angle must be greater than 0')\n    luminous_intensity = luminous_flux / solid_angle\n    return luminous_intensity",
+    "input_params": ["luminous_flux", "solid_angle"],
+    "output_param": "luminous_intensity"
+}

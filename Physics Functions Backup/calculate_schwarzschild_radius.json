@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_schwarzschild_radius",
+    "description": "Calculates the Schwarzschild radius of an object based on its mass. The Schwarzschild radius is the radius of a sphere such that, if all the mass of an object were to be compressed within that sphere, the escape velocity from the surface would equal the speed of light. This radius is a characteristic radius associated with every quantity of mass.",
+    "code": "def calculate_schwarzschild_radius(mass):\n    gravitational_constant = 6.67430e-11 # m^3 kg^-1 s^-2\n    speed_of_light = 299792458 # m/s\n    schwarzschild_radius = 2 * gravitational_constant * mass / (speed_of_light ** 2)\n    return schwarzschild_radius",
+    "input_params": "mass",
+    "output_param": "schwarzschild_radius"
+}

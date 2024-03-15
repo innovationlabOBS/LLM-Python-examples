@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_youngs_modulus",
+    "description": "Calculates the Young's modulus of a material, which is a measure of the stiffness of that material. It is calculated by dividing the stress by the strain in the linear elasticity regime of a uniaxial deformation.",
+    "code": "def calculate_youngs_modulus(stress, strain):\n    return stress / strain",
+    "input_params": ["stress", "strain"],
+    "output_param": "youngs_modulus"
+}

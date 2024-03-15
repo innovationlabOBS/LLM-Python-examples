@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_current",
+    "description": "This function returns the current date and time.",
+    "code": "from datetime import datetime\ndef find_current():\n    return datetime.now()",
+    "input_params": "None",
+    "output_param": "current_date_time"
+}

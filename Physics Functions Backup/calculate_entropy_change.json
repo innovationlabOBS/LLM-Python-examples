@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_entropy_change",
+    "description": "Calculates the change in entropy given initial and final temperatures and heat transferred.",
+    "code": "def calculate_entropy_change(heat_transferred, initial_temperature, final_temperature):\n    if initial_temperature <= 0 or final_temperature <= 0:\n        raise ValueError('Temperature must be greater than 0.')\n    delta_s = heat_transferred * (1/final_temperature - 1/initial_temperature)\n    return delta_s",
+    "input_params": ["heat_transferred", "initial_temperature", "final_temperature"],
+    "output_param": "delta_s"
+}

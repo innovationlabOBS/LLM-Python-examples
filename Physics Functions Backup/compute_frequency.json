@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_frequency",
+    "description": "This function calculates the frequency of each element in a given list and returns a dictionary with elements as keys and their frequencies as values.",
+    "code": "def compute_frequency(lst):\n    frequency = {}\n    for item in lst:\n        if item in frequency:\n            frequency[item] += 1\n        else:\n            frequency[item] = 1\n    return frequency",
+    "input_params": "lst",
+    "output_param": "frequency"
+}

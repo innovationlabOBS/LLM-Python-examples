@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_polarization_angle",
+    "description": "Calculates the polarization angle of an electromagnetic wave based on the ratio of the electric field components in two orthogonal directions.",
+    "code": "def compute_polarization_angle(E_x, E_y):\n    import math\n    return math.atan2(E_y, E_x) * (180 / math.pi)",
+    "input_params": ["E_x", "E_y"],
+    "output_param": "polarization_angle"
+}

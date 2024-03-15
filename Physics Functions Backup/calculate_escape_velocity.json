@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_escape_velocity",
+    "description": "Calculates the escape velocity from a celestial body given its mass and radius",
+    "code": "def calculate_escape_velocity(mass, radius):\n    G = 6.67430e-11 # gravitational constant in m^3 kg^-1 s^-2\n    escape_velocity = (2 * G * mass / radius) ** 0.5\n    return escape_velocity",
+    "input_params": ["mass", "radius"],
+    "output_param": "escape_velocity"
+}

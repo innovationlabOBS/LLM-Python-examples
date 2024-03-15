@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_specific_heat_capacity",
+    "description": "Calculates the specific heat capacity of a substance given the amount of heat transferred, the mass of the substance, and the change in temperature.",
+    "code": "def compute_specific_heat_capacity(heat_transferred, mass, temperature_change):\n    return heat_transferred / (mass * temperature_change)",
+    "input_params": ["heat_transferred", "mass", "temperature_change"],
+    "output_param": "specific_heat_capacity"
+}

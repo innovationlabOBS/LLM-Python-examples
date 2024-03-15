@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_capacitance",
+    "description": "Calculates the capacitance of a capacitor given the permittivity of the dielectric material, the area of the plates, and the distance between them.",
+    "code": "def compute_capacitance(permittivity, area, distance):\n    return (permittivity * area) / distance",
+    "input_params": ["permittivity", "area", "distance"],
+    "output_param": "capacitance"
+}

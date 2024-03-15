@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_fission_energy",
+    "description": "Calculates the energy released during nuclear fission using the mass defect method.",
+    "code": "def compute_fission_energy(mass_defect):\n    c = 3.00e8  # Speed of light in vacuum, m/s\n    energy = mass_defect * c**2\n    return energy",
+    "input_params": ["mass_defect"],
+    "output_param": "energy"
+}

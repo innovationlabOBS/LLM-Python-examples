@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_plancks_constant",
+    "description": "Calculates the energy of a photon given its frequency using Planck's constant.",
+    "code": "def calculate_plancks_constant(frequency):\n    plancks_constant = 6.62607015e-34\n    energy = plancks_constant * frequency\n    return energy",
+    "input_params": "frequency",
+    "output_param": "energy"
+}

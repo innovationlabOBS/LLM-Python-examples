@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_mass_energy_equivalence",
+    "description": "Calculates the energy equivalent of a given mass using Einstein's mass-energy equivalence formula E=mc^2, where E is energy, m is mass, and c is the speed of light in vacuum (approximately 3.00 x 10^8 m/s).",
+    "code": "def find_mass_energy_equivalence(mass):\n    speed_of_light = 3.00e8 # Speed of light in m/s\n    energy = mass * speed_of_light ** 2\n    return energy",
+    "input_params": "mass",
+    "output_param": "energy"
+}

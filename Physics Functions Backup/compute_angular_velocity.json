@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_angular_velocity",
+    "description": "This function calculates the angular velocity given the angle in radians and the time taken.",
+    "code": "def compute_angular_velocity(angle_radians, time_seconds):\n    angular_velocity = angle_radians / time_seconds\n    return angular_velocity",
+    "input_params": ["angle_radians", "time_seconds"],
+    "output_param": "angular_velocity"
+}

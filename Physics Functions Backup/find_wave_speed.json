@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_wave_speed",
+    "description": "Calculates the speed of a wave based on its frequency and wavelength.",
+    "code": "def find_wave_speed(frequency, wavelength):\n    return frequency * wavelength",
+    "input_params": ["frequency", "wavelength"],
+    "output_param": "speed"
+}

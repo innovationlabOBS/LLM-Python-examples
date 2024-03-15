@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_charge",
+    "description": "Calculates the total charge for a service based on the hourly rate and the number of hours worked.",
+    "code": "def calculate_charge(hourly_rate, hours_worked):\n    total_charge = hourly_rate * hours_worked\n    return total_charge",
+    "input_params": ["hourly_rate", "hours_worked"],
+    "output_param": "total_charge"
+}

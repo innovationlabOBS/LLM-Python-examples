@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_period",
+    "description": "Calculates the period of a pendulum based on its length.",
+    "code": "def calculate_period(length, gravity=9.81):\n    import math\n    period = 2 * math.pi * math.sqrt(length / gravity)\n    return period",
+    "input_params": ["length", "gravity"],
+    "output_param": "period"
+}

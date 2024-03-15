@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_brewsters_angle",
+    "description": "Calculates the Brewster's angle given the refractive indices of two media. Brewster's angle is the angle of incidence at which light with a particular polarization is perfectly transmitted through a transparent dielectric surface, with no reflection.",
+    "code": "def calculate_brewsters_angle(n1, n2):\n    import math\n    angle_radians = math.atan2(n2, n1)\n    angle_degrees = math.degrees(angle_radians)\n    return angle_degrees",
+    "input_params": ["n1", "n2"],
+    "output_param": "angle_degrees"
+}

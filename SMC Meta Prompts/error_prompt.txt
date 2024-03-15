@@ -1,0 +1,15 @@
+Given the following code and stacktrace, rewrite the code in it's entirety to resolve the error. The issue is with the prompt in the code, change it so that the code works.
+
+# JSON Output Example
+{
+    "brief_summary_of_changes": "<a very brief summary of the changes to be made and the rationale behind the changes>",
+    "complete_rewritten_code": "<the fixed python coce in it's entirety>"
+}
+
+#PYTHON CODE
+<<PYTHON_CODE>>
+
+#STACK TRACE
+<<STACK_TRACE>>
+
+# JSON Output (with no extra characters, as this wil break the parsing of this output)

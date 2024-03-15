@@ -1,0 +1,10 @@
+{
+    "function_description": "This function divides one number by another.",
+    "input_param_names": [
+        "dividend",
+        "divisor"
+    ],
+    "output_param_name": "result",
+    "code": "def divide_numbers(dividend, divisor):\n    return dividend / divisor",
+    "function_name": "divide_numbers"
+}

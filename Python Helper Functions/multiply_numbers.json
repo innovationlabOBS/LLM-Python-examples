@@ -1,0 +1,7 @@
+{
+    "function_description": "This function multiplies two numbers together.",
+    "input_param_names": ["number1", "number2"],
+    "output_param_name": "result",
+    "code": "def multiply_numbers(number1, number2):\n    return number1 * number2",
+    "function_name": "multiply_numbers"
+}

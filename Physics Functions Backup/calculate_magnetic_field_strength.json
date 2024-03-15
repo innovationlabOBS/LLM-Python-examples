@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_magnetic_field_strength",
+    "description": "Calculates the magnetic field strength at a point in space given the current through a wire and the distance from the wire to the point, using the formula B = (mu_0 * I) / (2 * pi * r), where B is the magnetic field strength, mu_0 is the magnetic constant (4*pi*1e-7 T*m/A), I is the current, and r is the distance from the wire.",
+    "code": "def calculate_magnetic_field_strength(I, r):\n    mu_0 = 4 * 3.141592653589793 * 1e-7\n    B = (mu_0 * I) / (2 * 3.141592653589793 * r)\n    return B",
+    "input_params": ["I", "r"],
+    "output_param": "B"
+}

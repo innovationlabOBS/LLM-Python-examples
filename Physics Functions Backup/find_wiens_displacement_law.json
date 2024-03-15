@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_wiens_displacement_law",
+    "description": "Calculates the peak wavelength (in meters) for a black body at a given temperature using Wien's Displacement Law. The law states that the product of the absolute temperature of a black body and the wavelength at which the emission is maximized is a constant.",
+    "code": "def find_wiens_displacement_law(temperature):\n    b = 2.897771955e-3  # Wien's displacement constant in meters Kelvin\n    peak_wavelength = b / temperature\n    return peak_wavelength",
+    "input_params": "temperature",
+    "output_param": "peak_wavelength"
+}

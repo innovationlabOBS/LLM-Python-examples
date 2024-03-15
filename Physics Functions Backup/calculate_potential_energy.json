@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_potential_energy",
+    "description": "Calculates the potential energy of an object based on its mass, gravitational force, and height above the ground.",
+    "code": "def calculate_potential_energy(mass, gravity, height):\n    return mass * gravity * height",
+    "input_params": ["mass", "gravity", "height"],
+    "output_param": "potential_energy"
+}

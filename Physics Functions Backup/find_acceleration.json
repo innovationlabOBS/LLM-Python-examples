@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_acceleration",
+    "description": "Calculates the acceleration given initial velocity, final velocity, and time.",
+    "code": "def find_acceleration(initial_velocity, final_velocity, time):\n    acceleration = (final_velocity - initial_velocity) / time\n    return acceleration",
+    "input_params": ["initial_velocity", "final_velocity", "time"],
+    "output_param": "acceleration"
+}

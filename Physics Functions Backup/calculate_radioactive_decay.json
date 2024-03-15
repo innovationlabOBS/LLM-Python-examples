@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_radioactive_decay",
+    "description": "Calculates the remaining quantity of a radioactive material after a certain period of time based on its half-life.",
+    "code": "def calculate_radioactive_decay(initial_quantity, half_life, time_passed):\n    remaining_quantity = initial_quantity * (0.5 ** (time_passed / half_life))\n    return remaining_quantity",
+    "input_params": ["initial_quantity", "half_life", "time_passed"],
+    "output_param": "remaining_quantity"
+}

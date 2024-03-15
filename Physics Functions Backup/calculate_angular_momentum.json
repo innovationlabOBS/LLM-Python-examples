@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_angular_momentum",
+    "description": "Calculates the angular momentum of an object in motion around a fixed point. Angular momentum is given by the product of the moment of inertia (I) and the angular velocity (w).",
+    "code": "def calculate_angular_momentum(moment_of_inertia, angular_velocity):\n    return moment_of_inertia * angular_velocity",
+    "input_params": ["moment_of_inertia", "angular_velocity"],
+    "output_param": "angular_momentum"
+}

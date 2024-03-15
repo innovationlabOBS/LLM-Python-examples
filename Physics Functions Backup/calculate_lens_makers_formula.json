@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_lens_makers_formula",
+    "description": "Calculates the focal length of a lens using the Lens Maker's Formula, which is 1/f = (n - 1) * (1/R1 - 1/R2), where 'n' is the refractive index of the lens material, 'R1' is the radius of curvature of the first lens surface, and 'R2' is the radius of curvature of the second lens surface.",
+    "code": "def calculate_lens_makers_formula(n, R1, R2):\n    try:\n        f = 1 / ((n - 1) * (1/R1 - 1/R2))\n        return f\n    except ZeroDivisionError:\n        return 'Error: Division by zero occurred, check your input values.'",
+    "input_params": ["n", "R1", "R2"],
+    "output_param": "f"
+}

@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_critical_mass",
+    "description": "Calculates the critical mass of a fissile material required to achieve a sustained nuclear chain reaction.",
+    "code": "def calculate_critical_mass(material_density, neutron_cross_section):\n    import math\n    critical_radius = (math.sqrt(neutron_cross_section / (math.pi * material_density)))\n    critical_volume = (4/3) * math.pi * (critical_radius ** 3)\n    critical_mass = critical_volume * material_density\n    return critical_mass",
+    "input_params": ["material_density", "neutron_cross_section"],
+    "output_param": "critical_mass"
+}

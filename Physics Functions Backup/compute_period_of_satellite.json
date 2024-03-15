@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_period_of_satellite",
+    "description": "Calculates the orbital period of a satellite around a central body given the semi-major axis of its orbit and the mass of the central body.",
+    "code": "def compute_period_of_satellite(semi_major_axis, central_body_mass):\n    import math\n    G = 6.67430e-11 # Gravitational constant in m^3 kg^-1 s^-2\n    period = 2 * math.pi * math.sqrt(semi_major_axis**3 / (G * central_body_mass))\n    return period",
+    "input_params": ["semi_major_axis", "central_body_mass"],
+    "output_param": "period"
+}

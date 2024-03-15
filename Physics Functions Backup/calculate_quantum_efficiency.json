@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_quantum_efficiency",
+    "description": "Calculates the quantum efficiency of a photovoltaic cell, which is the ratio of the number of charge carriers collected by the cell to the number of photons of a given energy incident on the cell.",
+    "code": "def calculate_quantum_efficiency(number_of_charge_carriers, number_of_incident_photons):\n    if number_of_incident_photons == 0:\n        return 0\n    quantum_efficiency = (number_of_charge_carriers / number_of_incident_photons) * 100\n    return quantum_efficiency",
+    "input_params": ["number_of_charge_carriers", "number_of_incident_photons"],
+    "output_param": "quantum_efficiency"
+}

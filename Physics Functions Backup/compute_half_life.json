@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_half_life",
+    "description": "Calculates the half-life of a substance based on its initial amount and the amount remaining after a given time period.",
+    "code": "def compute_half_life(initial_amount, remaining_amount, time_period):\n    import math\n    half_life = time_period * (math.log(2) / math.log(initial_amount / remaining_amount))\n    return half_life",
+    "input_params": ["initial_amount", "remaining_amount", "time_period"],
+    "output_param": "half_life"
+}

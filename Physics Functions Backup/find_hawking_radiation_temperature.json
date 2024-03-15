@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_hawking_radiation_temperature",
+    "description": "Calculates the Hawking radiation temperature of a black hole based on its mass.",
+    "code": "def find_hawking_radiation_temperature(mass):\n    c = 3.0e8 # Speed of light in m/s\n    G = 6.674e-11 # Gravitational constant in m^3 kg^-1 s^-2\n    hbar = 1.0545718e-34 # Reduced Planck constant in m^2 kg / s\n    kB = 1.380649e-23 # Boltzmann constant in m^2 kg s^-2 K^-1\n    \n    temperature = (hbar * c**3) / (8 * 3.14159 * G * mass * kB)\n    return temperature",
+    "input_params": "mass",
+    "output_param": "temperature"
+}

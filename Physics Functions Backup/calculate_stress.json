@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_stress",
+    "description": "Calculates the stress on a material given the force applied and the cross-sectional area.",
+    "code": "def calculate_stress(force, area):\n    stress = force / area\n    return stress",
+    "input_params": ["force", "area"],
+    "output_param": "stress"
+}

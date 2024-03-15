@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_de_broglie_wavelength",
+    "description": "Calculates the de Broglie wavelength of a particle given its mass and velocity.",
+    "code": "def find_de_broglie_wavelength(mass, velocity):\n    h = 6.62607015e-34\n    wavelength = h / (mass * velocity)\n    return wavelength",
+    "input_params": ["mass", "velocity"],
+    "output_param": "wavelength"
+}

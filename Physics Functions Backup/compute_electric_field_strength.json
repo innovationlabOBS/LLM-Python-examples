@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_electric_field_strength",
+    "description": "Calculates the electric field strength at a point in space due to a point charge.",
+    "code": "def compute_electric_field_strength(charge, distance):\n    k = 8.9875517873681764e9 # Coulomb's constant in N m^2/C^2\n    electric_field_strength = k * charge / (distance ** 2)\n    return electric_field_strength",
+    "input_params": ["charge", "distance"],
+    "output_param": "electric_field_strength"
+}

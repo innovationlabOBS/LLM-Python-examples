@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_electromagnetic_spectrum_frequency",
+    "description": "Calculates the frequency of an electromagnetic wave given its wavelength in meters.",
+    "code": "def find_electromagnetic_spectrum_frequency(wavelength):\n    speed_of_light = 3e8 # Speed of light in vacuum in meters per second\n    frequency = speed_of_light / wavelength\n    return frequency",
+    "input_params": "wavelength",
+    "output_param": "frequency"
+}

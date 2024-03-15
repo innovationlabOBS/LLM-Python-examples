@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_force",
+    "description": "Calculates the force applied on an object using the formula F = m * a, where F is the force applied, m is the mass of the object, and a is the acceleration.",
+    "code": "def calculate_force(mass, acceleration):\n    force = mass * acceleration\n    return force",
+    "input_params": ["mass", "acceleration"],
+    "output_param": "force"
+}

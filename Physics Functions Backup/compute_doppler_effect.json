@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_doppler_effect",
+    "description": "Calculates the observed frequency of a wave when the source and observer are moving relative to each other.",
+    "code": "def compute_doppler_effect(observed_frequency, velocity_of_wave, velocity_of_observer, velocity_of_source):\n    '''\n    Computes the observed frequency using the Doppler effect formula.\n    \n    Parameters:\n    observed_frequency (float): The frequency of the wave emitted by the source.\n    velocity_of_wave (float): The speed of the wave in the medium.\n    velocity_of_observer (float): The speed of the observer relative to the medium; positive if moving towards the source.\n    velocity_of_source (float): The speed of the source relative to the medium; positive if moving away from the observer.\n    \n    Returns:\n    float: The frequency observed by the observer.\n    '''\n    return observed_frequency * (velocity_of_wave + velocity_of_observer) / (velocity_of_wave - velocity_of_source)",
+    "input_params": ["observed_frequency", "velocity_of_wave", "velocity_of_observer", "velocity_of_source"],
+    "output_param": "observed_frequency"
+}

@@ -1,0 +1,15 @@
+Create a python function based on the name of the function. Output this in a json format given below
+
+# Function name
+<<FN_NAME>>
+
+# Json format example
+{
+    "fn_name": <name of function>,
+    "description": <description of what the function does>,
+    "code": <python code for the function>,
+    "input_params": <input parameter names>,
+    "output_param": <output paameter name>
+}
+
+# Json Output ( with no ```json included, this will break the parsing of the json)

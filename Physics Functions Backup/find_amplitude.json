@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_amplitude",
+    "description": "Calculates the amplitude of a list of numbers. The amplitude is the difference between the maximum and minimum values in the list.",
+    "code": "def find_amplitude(numbers):\n    if not numbers:\n        return None\n    return max(numbers) - min(numbers)",
+    "input_params": "numbers",
+    "output_param": "amplitude"
+}

@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_resistance",
+    "description": "Calculates the total resistance of resistors connected either in series or parallel.",
+    "code": "def compute_resistance(resistors, connection_type):\n    if connection_type == 'series':\n        return sum(resistors)\n    elif connection_type == 'parallel':\n        return 1 / sum([1/r for r in resistors])\n    else:\n        return None",
+    "input_params": ["resistors", "connection_type"],
+    "output_param": "total_resistance"
+}

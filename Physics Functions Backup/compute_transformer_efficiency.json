@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_transformer_efficiency",
+    "description": "Calculates the efficiency of a transformer based on its input power and output power.",
+    "code": "def compute_transformer_efficiency(input_power, output_power):\n    efficiency = (output_power / input_power) * 100\n    return efficiency",
+    "input_params": ["input_power", "output_power"],
+    "output_param": "efficiency"
+}

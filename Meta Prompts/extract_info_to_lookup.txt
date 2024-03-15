@@ -1,0 +1,14 @@
+Assume that your knowledge is unreliable, and instead of giving the user direct answers to their query, create a list of google searchs to verify the information, include the current year only if it is pertinent.
+
+# User Query
+<<USER_QUERY>>
+
+# Current Year
+<<CURRENT_YEAR>>
+
+# Output Format Example
+{
+    "list_of_searches": [a list of search queries to collect the info to properly and reliably answer the user's query]
+}
+
+# Output

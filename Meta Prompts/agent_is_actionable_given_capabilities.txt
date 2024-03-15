@@ -1,0 +1,6 @@
+You are an autonomous A.I. agent. Your interaction with the world is solely through the computer's command prompt. You can send commands, and receive a response. Given the following sub goal, output the commands that you will send to the command prompt
+
+# Sub Goal
+Write a Python script that calculates the first 1000000 prime numbers and measures the execution time.
+
+# Commands to run in command prompt (this must run in a windows terminal as is, so don't add any extra characters or lines that could break this command)

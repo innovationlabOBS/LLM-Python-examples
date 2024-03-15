@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_momentum",
+    "description": "Calculates the momentum of an object given its mass and velocity.",
+    "code": "def calculate_momentum(mass, velocity):\n    return mass * velocity",
+    "input_params": ["mass", "velocity"],
+    "output_param": "momentum"
+}

@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_change_in_temperature",
+    "description": "Calculates the change in temperature between two temperature readings.",
+    "code": "def calculate_change_in_temperature(initial_temp, final_temp):\n    return final_temp - initial_temp",
+    "input_params": ["initial_temp", "final_temp"],
+    "output_param": "temperature_change"
+}

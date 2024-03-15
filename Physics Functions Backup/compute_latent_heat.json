@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_latent_heat",
+    "description": "Calculates the latent heat given mass, specific latent heat",
+    "code": "def compute_latent_heat(mass, specific_latent_heat):\n    return mass * specific_latent_heat",
+    "input_params": ["mass", "specific_latent_heat"],
+    "output_param": "latent_heat"
+}

@@ -1,0 +1,10 @@
+{
+    "function_description": "Calculates the escape velocity of a planet given its mass and radius.",
+    "input_param_names": [
+        "mass",
+        "radius"
+    ],
+    "output_param_name": "escape_velocity",
+    "code": "def calculate_escape_velocity(mass, radius):\n    G = 6.67430e-11  # gravitational constant in m^3 kg^-1 s^-2\n    escape_velocity = (2 * G * mass / radius) ** 0.5\n    return escape_velocity",
+    "function_name": "calculate_escape_velocity"
+}

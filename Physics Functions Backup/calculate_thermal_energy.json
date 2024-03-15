@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_thermal_energy",
+    "description": "Calculates the thermal energy required to change the temperature of a given mass of a substance.",
+    "code": "def calculate_thermal_energy(mass, specific_heat_capacity, temperature_change):\n    return mass * specific_heat_capacity * temperature_change",
+    "input_params": ["mass", "specific_heat_capacity", "temperature_change"],
+    "output_param": "thermal_energy"
+}

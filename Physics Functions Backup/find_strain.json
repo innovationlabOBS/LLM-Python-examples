@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_strain",
+    "description": "This function searches for a specific strain (variant) within a given list of strains and returns the index of the strain if found, otherwise returns -1.",
+    "code": "def find_strain(strain_list, target_strain):\n    try:\n        return strain_list.index(target_strain)\n    except ValueError:\n        return -1",
+    "input_params": ["strain_list", "target_strain"],
+    "output_param": "index"
+}

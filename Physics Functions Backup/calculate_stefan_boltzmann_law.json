@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_stefan_boltzmann_law",
+    "description": "Calculates the total energy radiated per unit surface area of a black body across all wavelengths per unit time using the Stefan-Boltzmann Law.",
+    "code": "def calculate_stefan_boltzmann_law(temperature):\n    sigma = 5.67e-8  # Stefan-Boltzmann constant in W/(m^2*K^4)\n    return sigma * temperature ** 4",
+    "input_params": "temperature",
+    "output_param": "total_energy_radiated"
+}

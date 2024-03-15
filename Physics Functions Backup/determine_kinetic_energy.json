@@ -1,0 +1,7 @@
+{
+    "fn_name": "determine_kinetic_energy",
+    "description": "Calculates the kinetic energy of an object given its mass and velocity.",
+    "code": "def determine_kinetic_energy(mass, velocity):\n    return 0.5 * mass * velocity ** 2",
+    "input_params": ["mass", "velocity"],
+    "output_param": "kinetic_energy"
+}

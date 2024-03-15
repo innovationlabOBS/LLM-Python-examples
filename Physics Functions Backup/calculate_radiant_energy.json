@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_radiant_energy",
+    "description": "Calculates the radiant energy given the power and time. Radiant energy is the energy of electromagnetic waves. It is calculated as the product of power (in watts) and time (in seconds).",
+    "code": "def calculate_radiant_energy(power, time):\n    return power * time",
+    "input_params": ["power", "time"],
+    "output_param": "radiant_energy"
+}

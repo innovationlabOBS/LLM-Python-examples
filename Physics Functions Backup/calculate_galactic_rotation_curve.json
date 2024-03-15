@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_galactic_rotation_curve",
+    "description": "Calculates the rotation curve of a galaxy based on the distance from its center. This function assumes a simplistic model where the orbital velocity is determined solely by the mass enclosed within the orbit.",
+    "code": "def calculate_galactic_rotation_curve(distance, mass_enclosed):\n    G = 6.67430e-11 # Gravitational constant in m^3 kg^-1 s^-2\n    # Calculate the orbital velocity\n    velocity = (G * mass_enclosed / distance)**0.5\n    return velocity",
+    "input_params": ["distance", "mass_enclosed"],
+    "output_param": "velocity"
+}

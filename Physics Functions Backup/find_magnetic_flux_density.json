@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_magnetic_flux_density",
+    "description": "Calculates the magnetic flux density given the magnetic field strength (H) in A/m and the magnetic permeability (mu) in H/m.",
+    "code": "def find_magnetic_flux_density(H, mu):\n    B = H * mu\n    return B",
+    "input_params": ["H", "mu"],
+    "output_param": "B"
+}

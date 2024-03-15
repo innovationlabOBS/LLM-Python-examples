@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_ohms_law",
+    "description": "Calculates voltage, current, or resistance using Ohm's Law. Ohm's Law states that V = IR, where V is voltage in volts, I is current in amperes, and R is resistance in ohms.",
+    "code": "def calculate_ohms_law(voltage=None, current=None, resistance=None):\n    if voltage is None:\n        return current * resistance\n    elif current is None:\n        return voltage / resistance\n    elif resistance is None:\n        return voltage / current\n    else:\n        return 'Error: One parameter must be None'",
+    "input_params": "voltage, current, resistance",
+    "output_param": "voltage, current, or resistance based on the input"
+}

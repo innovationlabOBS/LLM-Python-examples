@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_shear_modulus",
+    "description": "Calculates the shear modulus of a material, which is a measure of the material's ability to resist shear deformation. It is calculated by dividing the shear stress by the shear strain.",
+    "code": "def find_shear_modulus(shear_stress, shear_strain):\n    return shear_stress / shear_strain",
+    "input_params": ["shear_stress", "shear_strain"],
+    "output_param": "shear_modulus"
+}

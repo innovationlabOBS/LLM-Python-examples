@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_wavelength",
+    "description": "Calculates the wavelength of a wave given its speed and frequency.",
+    "code": "def compute_wavelength(speed, frequency):\n    return speed / frequency",
+    "input_params": ["speed", "frequency"],
+    "output_param": "wavelength"
+}

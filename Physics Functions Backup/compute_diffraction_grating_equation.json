@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_diffraction_grating_equation",
+    "description": "Calculates the angle of the nth order maximum for light passing through a diffraction grating using the grating equation d*sin(theta) = n*lambda, where d is the grating spacing, theta is the angle of the diffracted beam, n is the order of the maximum, and lambda is the wavelength of the light.",
+    "code": "def compute_diffraction_grating_equation(d, lambda_, n):\n    import math\n    theta = math.asin(n * lambda_ / d)\n    return math.degrees(theta)",
+    "input_params": ["d", "lambda_", "n"],
+    "output_param": "theta"
+}

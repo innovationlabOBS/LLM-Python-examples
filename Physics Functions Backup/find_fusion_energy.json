@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_fusion_energy",
+    "description": "Calculates the energy produced by the fusion of two atoms based on the mass defect and Einstein's equation E=mc^2.",
+    "code": "def find_fusion_energy(mass_defect):\n    c = 3.00e8 # Speed of light in meters per second\n    energy = mass_defect * c**2\n    return energy",
+    "input_params": ["mass_defect"],
+    "output_param": "energy"
+}

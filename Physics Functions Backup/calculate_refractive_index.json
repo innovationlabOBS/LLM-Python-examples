@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_refractive_index",
+    "description": "Calculates the refractive index of a medium using the speed of light in vacuum and the speed of light in the medium.",
+    "code": "def calculate_refractive_index(speed_of_light_vacuum, speed_of_light_medium):\n    return speed_of_light_vacuum / speed_of_light_medium",
+    "input_params": ["speed_of_light_vacuum", "speed_of_light_medium"],
+    "output_param": "refractive_index"
+}

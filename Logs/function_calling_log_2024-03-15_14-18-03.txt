@@ -1,0 +1,83 @@
+===============User Input================:
+
+ what is the 74th prime number
+
+===============GPT_CALL_CHECK_FN_EXISTS Prompt================:
+
+ Given the user query, see if the following list of descriptions of python functions contains an example that can answer the user's query. Give your output as a json in the format provided.
+
+# User query
+what is the 74th prime number
+
+# Descriptions of python functions
+1: FUNCTION NAME: calculate_coulomb_force   FUNCTION DESCRIPTION: Calculates the Coulomb force between two charges separated by a certain distance.
+
+2: FUNCTION NAME: calculate_escape_velocity   FUNCTION DESCRIPTION: Calculates the escape velocity of a planet given its mass and radius.
+
+3: FUNCTION NAME: calculate_gravity   FUNCTION DESCRIPTION: Calculates the acceleration due to gravity of a planet based on its mass and radius.
+
+4: FUNCTION NAME: divide_numbers   FUNCTION DESCRIPTION: This function divides one number by another.
+
+5: FUNCTION NAME: find_nth_prime   FUNCTION DESCRIPTION: This function calculates the nth prime number.
+
+6: FUNCTION NAME: multiply_numbers   FUNCTION DESCRIPTION: This function multiplies two numbers together.
+
+
+
+# Json format example
+{
+    "function_exists": <output YES or NO if the function is in the list>,
+    "function_name": <name of the function, null if it doesn't exist>
+}
+
+# Json output (with no extra characters, as this wil break the parsing of this output)
+
+===============GPT_CALL_CHECK_FN_EXISTS Response================:
+
+ {
+    "function_exists": "YES",
+    "function_name": "find_nth_prime"
+}
+
+===============GPT_CALL_GET_FN_PARAMS_FROM_USER_INPUT Prompt================:
+
+ Given the following user query and python function definition, extract values for the input parameters to the function from the user query. Output them in the json format provided.
+
+# User Query
+<what is the 74th prime number>
+
+# Function definition
+{"function_description": "This function calculates the nth prime number.", "input_param_names": ["n"], "output_param_name": "nth_prime", "code": "def find_nth_prime(n):\n    def is_prime(num):\n        if num < 2:\n            return False\n        for i in range(2, int(num**0.5) + 1):\n            if num % i == 0:\n                return False\n        return True\n\n    count = 0\n    num = 1\n    while count < n:\n        num += 1\n        if is_prime(num):\n            count += 1\n    return num", "function_name": "find_nth_prime"}
+
+# Json format example
+{
+    "values_for_input_params": <user defined values for the input parameters of the function as a python list. Convert these values to be purely numerical and to work in the units that the function requires>
+}
+
+# Json output (with no extra characters, as this wil break the parsing of this output)
+
+===============GPT_CALL_GET_FN_PARAMS_FROM_USER_INPUT Response================:
+
+ {
+    "values_for_input_params": [74]
+}
+
+===============GPT_CALL_ANSWER_USER_QUERY Prompt================:
+
+ Given the user's query and the correct answer, convey this answer to them in a concise and friendly manner. Make sure to use the supplied answer, don't try to answer the query yourself.
+
+# User query
+what is the 74th prime number
+
+# Correct answer
+373
+
+# Function Definition used to solve the problem
+{"function_description": "This function calculates the nth prime number.", "input_param_names": ["n"], "output_param_name": "nth_prime", "code": "def find_nth_prime(n):\n    def is_prime(num):\n        if num < 2:\n            return False\n        for i in range(2, int(num**0.5) + 1):\n            if num % i == 0:\n                return False\n        return True\n\n    count = 0\n    num = 1\n    while count < n:\n        num += 1\n        if is_prime(num):\n            count += 1\n    return num", "function_name": "find_nth_prime", "actual_input_values": [74]}
+
+# Friendly and concise response
+
+===============GPT_CALL_ANSWER_USER_QUERY Response================:
+
+ The 74th prime number is 373.
+

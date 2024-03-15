@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_cosmological_redshift",
+    "description": "This function calculates the cosmological redshift of a distant object in the universe, based on its observed wavelength and the wavelength at which the light was emitted. The cosmological redshift is a key concept in astrophysics and cosmology, providing insights into the expansion of the universe.",
+    "code": "def compute_cosmological_redshift(observed_wavelength, emitted_wavelength):\n    z = (observed_wavelength / emitted_wavelength) - 1\n    return z",
+    "input_params": ["observed_wavelength", "emitted_wavelength"],
+    "output_param": "z"
+}

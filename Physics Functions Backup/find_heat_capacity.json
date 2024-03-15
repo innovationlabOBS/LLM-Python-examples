@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_heat_capacity",
+    "description": "Calculates the heat capacity of a substance given the amount of heat transferred to it and the change in its temperature.",
+    "code": "def find_heat_capacity(heat_transferred, temperature_change):\n    return heat_transferred / temperature_change",
+    "input_params": ["heat_transferred", "temperature_change"],
+    "output_param": "heat_capacity"
+}

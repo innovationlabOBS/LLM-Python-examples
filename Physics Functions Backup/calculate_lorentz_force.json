@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_lorentz_force",
+    "description": "Calculates the Lorentz force experienced by a charged particle moving in an electric and magnetic field.",
+    "code": "def calculate_lorentz_force(charge, electric_field, magnetic_field, velocity):\n    import numpy as np\n    force = charge * (electric_field + np.cross(velocity, magnetic_field))\n    return force",
+    "input_params": ["charge", "electric_field", "magnetic_field", "velocity"],
+    "output_param": "force"
+}

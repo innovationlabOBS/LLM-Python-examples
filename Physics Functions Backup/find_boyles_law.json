@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_boyles_law",
+    "description": "Calculates the final volume or pressure of a gas using Boyle's Law, assuming initial conditions are known. Boyle's Law states that the pressure of a given mass of an ideal gas is inversely proportional to its volume at a constant temperature (P1*V1 = P2*V2).",
+    "code": "def find_boyles_law(initial_pressure, initial_volume, final_pressure=None, final_volume=None):\n    if final_pressure is not None:\n        return (initial_pressure * initial_volume) / final_pressure\n    elif final_volume is not None:\n        return (initial_pressure * initial_volume) / final_volume\n    else:\n        return 'Insufficient data provided'",
+    "input_params": "initial_pressure, initial_volume, final_pressure=None, final_volume=None",
+    "output_param": "final_volume or final_pressure"
+}

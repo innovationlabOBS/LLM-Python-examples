@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_centripetal_force",
+    "description": "Calculates the centripetal force required to keep an object moving in a circle at a constant speed.",
+    "code": "def calculate_centripetal_force(mass, velocity, radius):\n    return (mass * velocity ** 2) / radius",
+    "input_params": ["mass", "velocity", "radius"],
+    "output_param": "centripetal_force"
+}

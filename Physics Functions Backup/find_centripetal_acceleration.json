@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_centripetal_acceleration",
+    "description": "Calculates the centripetal acceleration of an object moving in a circle at a constant speed.",
+    "code": "def find_centripetal_acceleration(velocity, radius):\n    return (velocity ** 2) / radius",
+    "input_params": ["velocity", "radius"],
+    "output_param": "centripetal_acceleration"
+}

@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_keplers_third_law",
+    "description": "Calculates the orbital period of a planet in years based on its average distance from the sun in astronomical units (AU) using Kepler's Third Law.",
+    "code": "def find_keplers_third_law(average_distance_au):\n    # Kepler's Third Law: The square of the orbital period of a planet is directly proportional to the cube of the semi-major axis of its orbit.\n    # For planets orbiting the sun, the constant of proportionality is approximately 1 when the distance is in astronomical units (AU) and the time is in Earth years.\n    orbital_period_years = average_distance_au ** (3/2)\n    return orbital_period_years",
+    "input_params": ["average_distance_au"],
+    "output_param": "orbital_period_years"
+}

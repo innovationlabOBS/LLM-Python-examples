@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_induced_emf",
+    "description": "Calculates the induced electromotive force (emf) in a coil due to a change in magnetic flux over time.",
+    "code": "def find_induced_emf(change_in_flux, time):\n    induced_emf = change_in_flux / time\n    return induced_emf",
+    "input_params": ["change_in_flux", "time"],
+    "output_param": "induced_emf"
+}

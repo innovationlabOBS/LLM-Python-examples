@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_poissons_ratio",
+    "description": "This function calculates the Poisson's ratio given the lateral strain and axial strain. Poisson's ratio is a measure of the Poisson effect, which describes the expansion or contraction of a material in directions perpendicular to the direction of loading.",
+    "code": "def compute_poissons_ratio(lateral_strain, axial_strain):\n    if axial_strain == 0:\n        raise ValueError('Axial strain cannot be zero.')\n    return -lateral_strain / axial_strain",
+    "input_params": ["lateral_strain", "axial_strain"],
+    "output_param": "poissons_ratio"
+}

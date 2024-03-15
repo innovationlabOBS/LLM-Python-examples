@@ -1,0 +1,14 @@
+Given the following user query, give a  list of the names of math and physics equations that will  be needed to solve the problem. Example, multiplication, division, calculate force, calculate charge, etc.
+
+# Example User Query
+What is the acceleration due to gravity on a planet 10 times the mass of jupiter, and half the radius?
+
+# Example Output
+Multiplication
+Division
+Calculate gravitational acceleration
+
+# User Query
+If you were on a spaceship travelling at 99% the speed of light, how long would it take you to travel to the nearest star, in the reference frame of a person on the ship?
+
+# Output

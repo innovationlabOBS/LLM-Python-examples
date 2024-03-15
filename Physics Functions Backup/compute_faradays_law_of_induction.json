@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_faradays_law_of_induction",
+    "description": "Calculates the electromotive force (EMF) generated in a coil due to change in magnetic flux according to Faraday's Law of Electromagnetic Induction.",
+    "code": "def compute_faradays_law_of_induction(change_in_flux, time):\n    emf = -change_in_flux / time\n    return emf",
+    "input_params": ["change_in_flux", "time"],
+    "output_param": "emf"
+}

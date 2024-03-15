@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_pressure_volume_work",
+    "description": "Calculates the work done during a process by using the formula Work = Pressure * Change in Volume. This is a basic formula used in thermodynamics, assuming the process is at constant pressure.",
+    "code": "def find_pressure_volume_work(pressure, initial_volume, final_volume):\n    work = pressure * (final_volume - initial_volume)\n    return work",
+    "input_params": ["pressure", "initial_volume", "final_volume"],
+    "output_param": "work"
+}

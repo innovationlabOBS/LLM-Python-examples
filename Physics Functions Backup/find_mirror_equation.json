@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_mirror_equation",
+    "description": "This function finds the mirror image of a linear equation of the form y = mx + b with respect to the y-axis. The mirror image of the equation is found by negating the coefficient of x, resulting in y = -mx + b.",
+    "code": "def find_mirror_equation(m, b):\n    mirror_m = -m\n    return mirror_m, b",
+    "input_params": ["m", "b"],
+    "output_param": "(mirror_m, b)"
+}

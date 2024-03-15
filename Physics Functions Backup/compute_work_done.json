@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_work_done",
+    "description": "Calculates the work done based on the force applied and the distance over which it is applied, assuming the force is applied in the direction of the movement.",
+    "code": "def compute_work_done(force, distance):\n    return force * distance",
+    "input_params": ["force", "distance"],
+    "output_param": "work_done"
+}

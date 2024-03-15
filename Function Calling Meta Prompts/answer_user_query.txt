@@ -1,0 +1,12 @@
+Given the user's query and the correct answer, convey this answer to them in a concise and friendly manner. Make sure to use the supplied answer, don't try to answer the query yourself.
+
+# User query
+<<USER_QUERY>>
+
+# Correct answer
+<<CORRECT_ANSWER>>
+
+# Function Definition used to solve the problem
+<<FUNCTION_DEFINITION>>
+
+# Friendly and concise response

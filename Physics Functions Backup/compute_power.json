@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_power",
+    "description": "This function computes the power of a given base raised to a specified exponent.",
+    "code": "def compute_power(base, exponent):\n    return base ** exponent",
+    "input_params": ["base", "exponent"],
+    "output_param": "result"
+}

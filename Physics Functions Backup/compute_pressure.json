@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_pressure",
+    "description": "This function calculates the pressure given force and area.",
+    "code": "def compute_pressure(force, area):\n    return force / area",
+    "input_params": ["force", "area"],
+    "output_param": "pressure"
+}

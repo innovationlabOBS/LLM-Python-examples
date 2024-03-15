@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_charles_law",
+    "description": "Calculates the final volume of a gas at constant pressure using Charles's Law. Charles's Law states that if a given quantity of gas is held at a constant pressure, its volume is directly proportional to its absolute temperature.",
+    "code": "def compute_charles_law(initial_volume, initial_temperature, final_temperature):\n    final_volume = (initial_volume * final_temperature) / initial_temperature\n    return final_volume",
+    "input_params": ["initial_volume", "initial_temperature", "final_temperature"],
+    "output_param": "final_volume"
+}

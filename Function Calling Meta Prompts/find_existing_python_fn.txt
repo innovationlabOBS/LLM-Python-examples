@@ -1,0 +1,15 @@
+Given the user query, see if the following list of descriptions of python functions contains an example that can answer the user's query. Give your output as a json in the format provided.
+
+# User query
+<<USER_QUERY>>
+
+# Descriptions of python functions
+<<DESCRIPTIONS_OF_FNS>>
+
+# Json format example
+{
+    "function_exists": <output YES or NO if the function is in the list>,
+    "function_name": <name of the function, null if it doesn't exist>
+}
+
+# Json output (with no extra characters, as this wil break the parsing of this output)

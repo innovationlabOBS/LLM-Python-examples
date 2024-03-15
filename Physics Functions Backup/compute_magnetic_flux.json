@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_magnetic_flux",
+    "description": "Calculates the magnetic flux through a surface given the magnetic field strength and the area of the surface perpendicular to the field.",
+    "code": "def compute_magnetic_flux(magnetic_field_strength, area):\n    return magnetic_field_strength * area",
+    "input_params": ["magnetic_field_strength", "area"],
+    "output_param": "magnetic_flux"
+}

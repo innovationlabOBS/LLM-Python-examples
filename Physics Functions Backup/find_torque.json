@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_torque",
+    "description": "Calculates the torque given force and lever arm length",
+    "code": "def find_torque(force, lever_arm_length):\n    return force * lever_arm_length",
+    "input_params": ["force", "lever_arm_length"],
+    "output_param": "torque"
+}

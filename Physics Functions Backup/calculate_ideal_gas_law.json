@@ -1,0 +1,7 @@
+{
+    "fn_name": "calculate_ideal_gas_law",
+    "description": "Calculates the pressure, volume, or temperature of a gas using the Ideal Gas Law equation PV=nRT, where P is pressure, V is volume, n is the number of moles, R is the gas constant, and T is temperature.",
+    "code": "def calculate_ideal_gas_law(P=None, V=None, n=None, R=8.314, T=None):\n    if P is None:\n        return (n * R * T) / V\n    elif V is None:\n        return (n * R * T) / P\n    elif T is None:\n        return (P * V) / (n * R)\n    else:\n        return 'Insufficient data provided'",
+    "input_params": ["P (optional)", "V (optional)", "n", "R (default=8.314)", "T (optional)"],
+    "output_param": "Calculated value of the missing parameter (P, V, or T)"
+}

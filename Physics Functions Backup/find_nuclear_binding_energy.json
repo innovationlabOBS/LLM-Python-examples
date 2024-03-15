@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_nuclear_binding_energy",
+    "description": "Calculates the nuclear binding energy of an atom based on its atomic mass and mass number, using the formula: Binding Energy = (Z * mp + (A - Z) * mn - M) * c^2, where Z is the atomic number, A is the mass number, mp is the mass of a proton, mn is the mass of a neutron, M is the atomic mass, and c is the speed of light.",
+    "code": "def find_nuclear_binding_energy(Z, A, M):\n    mp = 1.007276 # mass of a proton in atomic mass units (amu)\n    mn = 1.008665 # mass of a neutron in amu\n    c = 299792458 # speed of light in meters per second\n    atomic_mass_unit_to_kg = 1.660539040e-27 # conversion factor from amu to kg\n    joules_to_mega_electron_volts = 6.242e+12 # conversion factor from joules to MeV\n    # Calculate the mass defect\n    mass_defect = Z * mp + (A - Z) * mn - M\n    # Convert mass defect to kg\n    mass_defect_kg = mass_defect * atomic_mass_unit_to_kg\n    # Calculate binding energy in joules\n    binding_energy_joules = mass_defect_kg * c**2\n    # Convert binding energy to MeV\n    binding_energy_mev = binding_energy_joules * joules_to_mega_electron_volts\n    return binding_energy_mev",
+    "input_params": ["Z", "A", "M"],
+    "output_param": "binding_energy_mev"
+}

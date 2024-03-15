@@ -1,0 +1,14 @@
+Given the following user query and python function definition, extract values for the input parameters to the function from the user query. Output them in the json format provided.
+
+# User Query
+<<USER_QUERY>>
+
+# Function definition
+<<FUNCTION_DEFINITION>>
+
+# Json format example
+{
+    "values_for_input_params": <user defined values for the input parameters of the function as a python list. Convert these values to be purely numerical and to work in the units that the function requires>
+}
+
+# Json output (with no extra characters, as this wil break the parsing of this output)

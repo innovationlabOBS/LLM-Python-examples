@@ -1,0 +1,7 @@
+{
+    "fn_name": "compute_uncertainty_principle",
+    "description": "Calculates the product of the uncertainties in position and momentum of a particle, demonstrating the Heisenberg Uncertainty Principle.",
+    "code": "def compute_uncertainty_principle(delta_x, delta_p):\n    h_bar = 1.0545718e-34  # Reduced Planck's constant in m^2 kg / s\n    uncertainty_product = delta_x * delta_p\n    return uncertainty_product >= (h_bar / 2)",
+    "input_params": ["delta_x", "delta_p"],
+    "output_param": "uncertainty_product_satisfies_principle"
+}

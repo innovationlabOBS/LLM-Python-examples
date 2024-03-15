@@ -1,0 +1,7 @@
+{
+    "fn_name": "find_impulse",
+    "description": "Calculates the impulse given force and time change. Impulse is defined as the change in momentum of an object when the object is acted upon by a force for an interval of time. In simpler terms, it's the product of force (in Newtons) and the time duration (in seconds) over which the force is applied.",
+    "code": "def find_impulse(force, time_change):\n    impulse = force * time_change\n    return impulse",
+    "input_params": ["force", "time_change"],
+    "output_param": "impulse"
+}
